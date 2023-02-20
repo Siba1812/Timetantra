@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: lightblue;
+}
+.logo{
+    size: 30px;
+    padding-left: 140px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: square;
+    
+    padding-right: 70px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}  
+nav ul li button[type="menu"] {
+    background:darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    width: 100%;
+   
+}
+a{
+    text-decoration: none;
+    color: whitesmoke
+}
+.welcomepage{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: aquamarine;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.col1{
+    
+    width: 50%;
+}
+form{
+    display: block;
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px; 
+}
+.col1.row1{
+    padding-top: 500px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+form button[type="submit"] {
+    background: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    width: 100%;
+   
+}
+  
+  form button[type="submit"]:hover {
+    background: #45a049;
+}
+.cartbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}    
+#root{
+    width: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cartlogo{
+    width:1490px;
+    background-color: darkcyan;
+    padding: 15px;
+    text-align: center;
+}
+.carbar{
+    float: left;
+    display: block;
+    width: 40%;
+    border-radius: 5px;
+    background-color: burlywood;
+    margin-left: 20px;
+    padding: 15px;
+    text-align:center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid;
+}
