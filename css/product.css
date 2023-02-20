@@ -103,7 +103,7 @@ form button[type="submit"] {
 }
 .allproduct{
     height: 60px;
-    width: 1474px;
+    width: 100%;
     background-color: darkcyan;
     display: flex;
     padding-top: 15px;

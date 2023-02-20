@@ -45,7 +45,7 @@ a{
     color: whitesmoke
 }
 .welcomepage{
-    max-width: 1300px;
+    max-width: 100%;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -104,11 +104,11 @@ form button[type="submit"] {
 }
 .welcome{
     height: 60px;
-    width: 1499px;
+    width:111.2%; 
     background-color: darkcyan;
     display: flex;
     padding-top: 15px;
-    padding-left: 690px;
+    padding-left: 750px;
     margin-top: -50px;
     margin-left: -135px;
     
